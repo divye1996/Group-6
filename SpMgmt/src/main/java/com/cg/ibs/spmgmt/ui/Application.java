@@ -20,6 +20,7 @@ public class Application {
 		BankAdmin admin = new BankAdmin();
 		int switchInput = 0;
 		boolean exitTrigger = true;
+int abc = 1;
 		// Keep Showing the menu until exit button pressed
 		do {
 			ServiceProviderService service = new ServiceProviderServiceImpl();

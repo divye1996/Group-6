@@ -27,7 +27,6 @@ public class ServiceProviderDaoImpl implements ServiceProviderDao {
 	// Bank Administrative Database
 	BankAdmin admin1 = new BankAdmin("id1", "pass1");
 	BankAdmin admin2 = new BankAdmin("id2", "pass2");
-
 	@Override
 	public ServiceProvider addServiceProvider(ServiceProvider serviceProvider) throws IBSException {
 		try (Connection con = ConnectionProvider.getInstance().getConnection();
